@@ -48,3 +48,20 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Testing
+
+This project uses `pytest` for backend testing. Tests are located in the `tests/` directory and follow the Arrange-Act-Assert (AAA) pattern for clarity and maintainability.
+
+### Running Tests
+
+1. Make sure you have all dependencies installed:
+   ```
+   pip install -r requirements.txt
+   ```
+2. Run all tests from the project root:
+   ```
+   pytest
+   ```
+
+Test output will show which tests passed or failed. All tests should pass if the application is working correctly.
